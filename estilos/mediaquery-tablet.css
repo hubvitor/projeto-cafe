@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@media (min-width: 767px) {
+  h2 {
+    font-size: 2.5em;
+  }
+  
+  /* Nav */
+  nav {
+    padding: 30px;
+  }
+  nav .material-icons {
+    font-size: 3em;
+  }
+  
+  /* Header */
+  div.titulo-principal {
+    padding: 30px 15px 15px 20px;
+  }
+  header h1, header .emoji {
+    font-size: 3em;
+  }
+  
+  /* Main */
+  .main-texto {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-texto h3 {
+    width: 95vw;
+  }
+  .main-texto p {
+    max-width: 35%;
+    font-size: 2em;
+  }
+  
+  /* Pães */
+  .main-paes h3 {
+    width: 100%;
+  }
+  .main-paes p {
+    min-width: 88%;
+    font-size: 1em;
+  }
+  
+  /* Footer */
+  
+  footer p {
+    font-size: 2em;
+  }
+}

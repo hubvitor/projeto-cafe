@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media (min-width: 1370px) {
+  * {
+    text-align: center;
+    font-size: 1vw;
+    justify-content: space-around;
+    justify-items: space-around;
+  }
+  body {
+    margin: 0 auto;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  .titulo-principal, main, footer {
+    max-width: 30vw;
+  }
+  
+  
+  p {
+    min-width: 100%;
+  }
+}
